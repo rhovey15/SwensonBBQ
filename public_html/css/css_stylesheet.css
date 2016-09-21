@@ -1,3 +1,6 @@
+/* Trey Moddelmog */
+
+/* Body & Headers & IMG & Paragraphs */ 
 body {
 	background-color: #111419;
 }
@@ -34,10 +37,12 @@ p {
 	border-radius: 10px;
 }
 
+/* Nav Bar */
 nav ul {
 	list-style-type: none;
 	width: 550px;
 	margin: 200px auto;
+	border-radius: 5px;
 	padding: 10px;
 	overflow: hidden;
 	background-color: #363F4B;
@@ -59,3 +64,6 @@ nav li a {
 nav li a:hover{
 	background-color: #52657F;
 }
+
+/* Table for saling items */
+
