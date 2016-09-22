@@ -1,5 +1,18 @@
 body {
-	background-color: #B9121B;
-	font-size: 16;font-style: sans-serif
+	background-color:#FFF0BC;
+}
+h1{
+	font-weight: bolder;
+	border-style: ridge;
+	font-size: 30px;
+	background-color: #8E2800;
+	color: #FFF0A5;
 }
 
+table{
+	border-collapse:collapse;
+}
+
+table,th,td{
+	border:5px solid black;
+}
