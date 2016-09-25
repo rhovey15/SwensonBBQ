@@ -160,13 +160,3 @@ tfoot tr td {
 	text-align: center;
 	border-radius: 5px;
 }
-
-/* Media Bar */
- #media_bar {
- 	margin: 0px auto;  
-	position: relative;
-	left: 10px; 
-	padding-top:0px;
-	width:150px;
-	float:left;
-}
