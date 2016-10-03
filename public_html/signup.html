@@ -1,69 +1,92 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
     <title>Sign Up!</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <!-- Our custom stylesheet that WE write. We need this to not have our
+         text appear under the nav bar. -->
+    <link rel="stylesheet" href="custom.css">
+
+    <style>
+
+      body{
+        padding-top: 70px;
+      }
+
+    </style>
 
   </head>
+
   <body>
-   <h1>Sign up! </h1>
-<p>
-<form action="action_page.php">
-  First name:<br>
-  <input type="text" name="firstname" value=""><br>
-  Last name:<br>
-  <input type="text" name="lastname" value=""><br>
-  E Mail:<br>
-  <input type="text" name="e-mail" value=""><br>
-  Password:<br>
-  <input type="text" name="password" value=""><br>
-  <input type="submit" value="Submit">
-</form>
-Password must include at least one capital letter. 
-<footer>
-<nav>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
 
-      <li>
-        <a href="about.html">About Us</a>
-      </li>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
 
-      <li>
-        <a href="location.html">Location and Business Hours</a>
-      </li>
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-      <li>
-        <a href="item.html">Items For Sale</a>
-      </li>
-     
-      <li>
-        <a href="news.html">The BBQ Tribune</a>
-      </li>
-     
-      <li>
-        <a href="signup.html">Sign Up Page</a>
-      </li>
-      
-      <li>
-        <a href="login.html">Login</a>
-      </li>
-     
-      <li>
-        <a href="info.html">Information</a>
-      </li>
-    </ul>
-</nav>
-<img src="img/graphic.png" alt="graphic"/>
-</footer>
-    <script src="js/bootstrap.min.js"></script>
+          <!-- Title on nav bar -->
+          <a class="navbar-brand" href="#">Bootstrap</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="item.html">Items For Sale</a></li>
+            <li><a href="location.html">Location and Business Hours</a></li>
+            <li><a href="news.html">The BBQ Tribune"</a>
+            <li><a href="info.html">Information</a></li>
+            <li><a href="signup.html">Sign Up Page</a></li>
+            <li><a href="login.html">Login</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+      <!-- This container moves below the menu bar -->
+      <div class="below_menu_container">
+        <h1 style="padding: 15px">Sign up! </h1>
+        <p style="padding: 10px">
+          <form action="action_page.php">
+           First name:<br>
+          <input type="text" name="firstname" value=""><br>
+           Last name:<br>
+         <input type="text" name="lastname" value=""><br>
+         E Mail:<br>
+         <input type="text" name="e-mail" value=""><br>
+         Password:<br>
+         <input type="text" name="password" value=""><br>
+         <input type="submit" value="Submit">
+        </form>
+        <div class="alert alert-danger" role="alert">Password must include at least one capital letter.</div>
+      </div>
+    </div>
+
+    <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
