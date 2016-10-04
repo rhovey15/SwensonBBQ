@@ -11,8 +11,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="stylesheet.css">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap_css.css">
   
-  <title>Location and Business Hours</title>
+  <title>Hours and Location</title>
 </head>
 
 <body>
@@ -37,6 +39,9 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active">
+            <a href="index.html">Home</a>
+            </li>
+            <li>
             <a href="about.html">About</a>
             </li>
             <li>
@@ -62,21 +67,43 @@
       </div>
     </nav>
 
-<h1>Business Hours </h1>
-Monday: 8AM - 5PM <p>
-Tuesday: 8AM - 5PM <p>
-Wednesday: 8AM - 5PM <p>
-Thursday: 8AM - 5PM <p>
-Friday: 8AM - 5PM <p>
-Saturday: 8AM - 12PM <p>
-Sunday: Closed <p>
-<img src="img/map.png" alt="map"/>
+<div class="container">
+  <div class="jumbotron text-center below_menu_container">
+    <h1>Business Hours and Location</h1>
+  </div>
+</div>
 
+<div class="container col-lg-6">
+  <table class="table table-striped">
+    <thead><h2>Business Hours</h2></thead>
+      <tbody>
+        <tr>
+          <td>Monday - Friday: 8AM - 5PM</td>
+        </tr>
+        <tr>
+          <td>Saturday: 8AM - 12PM</td>
+        </tr>
+        <tr>
+          <td>Sunday: Closed</td>
+        </tr>
+      </tbody>
+  </table>
+</div>
 
+<div class="container col-lg-6">
+  <h2>Address</h2>
+    <p> 111 Drive Ave. Blanktown, IA 54321 </p>
+    <img src="img/map.png" alt="map" id= "map"/>
+</div>
 
 <footer>
-
+<div class="container col sm 12">
+  <h5>2016 SwensonBBQ, All Rights Reserved.</h5>
+</div>
 </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 
