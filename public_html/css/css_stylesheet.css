@@ -1,0 +1,162 @@
+/* Trey Moddelmog */
+
+/* Body & Headers & IMG & Paragraphs */ 
+body {
+	background-color: #24264a;
+	background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+}
+
+h1 {
+	background-color: #1E4B33;
+	background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+	color: #ffffff;
+	font-family: "Times New Roman", serif;
+	font-size: 60px;
+	text-align: center;
+	width: 550px;
+	margin: auto;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+footer {
+	background-color: #575757;
+	color: #FDFDFD;
+	font-family: sans-serif;
+	font-size: 10px;
+	width: all;
+	padding: 2px;
+	margin-top: 50%;
+}
+
+img {
+	display: block;
+	margin: auto;
+	padding: 50px;
+	max-width: 60%;
+	height: auto;
+}
+
+#map {
+	width: 414.594px;
+	-webkit-transition: 2s;
+}
+
+#map:hover {
+	width: 75%;
+}
+
+.bottle {
+	width: 200px;
+	-webkit-transition: width 1s;
+}
+
+.bottle:hover{
+	width: 300px;
+}
+
+p {
+	background-color: #2D052D;
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 20px;
+	width: 550px;
+	margin: auto;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+article {
+	background-color: #2D052D;
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 20px;
+	width: 550px;
+	margin: auto;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+/* Odds & Evens */
+.odd {
+	background-color: #2D052D;
+}
+
+.even {
+	background-color: #623E62;
+}
+
+/* Nav Bar */
+nav ul {
+	list-style-type: none;
+	width: auto;
+	margin: auto;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	padding: 10px;
+	overflow: hidden;
+	background-color: #363F4B;
+	font-family: Tahoma, serif;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	background-color: #52657F;
+}
+
+/* Form */
+form {
+	width: 550px;
+	margin: auto;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+form br {
+	background-color: #2D052D;
+	color: #ffffff;
+}
+
+.submit:hover {
+	background-color: #ffffff;
+
+}
+
+/* Table for saling items */
+th {
+	background-color: #623E62;
+	background-image: url("https://www.transparenttextures.com/patterns/black-twill.png");
+	color: #ffffff;
+	font-family: serif;
+	font-size: 50px;
+	text-align: center;
+	width: 550px;
+	margin: auto;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+tfoot tr td {
+	background-color: #2D052D;
+	color: #ffffff;
+	padding: 5px;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	border-radius: 5px;
+}
