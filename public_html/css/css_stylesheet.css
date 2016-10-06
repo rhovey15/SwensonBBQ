@@ -168,3 +168,46 @@ tfoot tr td {
 	text-align: center;
 	border-radius: 5px;
 }
+
+/* button formatting */
+.button
+{
+    background-color: #1E4B33;
+	color: #ffffff;
+	padding: 5px;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+    border:none;
+    border-radius:10px;
+    height: 43px;
+    width: 570px; 
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
