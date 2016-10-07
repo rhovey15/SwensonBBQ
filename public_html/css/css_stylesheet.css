@@ -121,15 +121,18 @@ nav li a:hover{
 }
 
 /* Form */
+
 form {
 	width: 550px;
 	margin: auto;
 }
 
-input {
-	width: 100%;
-	padding: 10px;
-	border-radius: 10px;
+input { 
+	font-size: 15px;
+	text-align: center;
+    	border-radius:10px;
+    	height: 30px;
+    	width: 566px; 
 }
 
 form br {
@@ -142,7 +145,7 @@ form br {
 
 }
 
-/* Table for saling items */
+/* Table for selling items */
 th {
 	background-color: #623E62;
 	background-image: url("https://www.transparenttextures.com/patterns/black-twill.png");
@@ -165,6 +168,7 @@ tfoot tr td {
 	text-align: center;
 	border-radius: 5px;
 }
+
 
 /* button formatting */
 .button
