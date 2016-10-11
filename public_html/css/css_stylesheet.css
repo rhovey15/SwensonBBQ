@@ -195,7 +195,7 @@ tfoot tr td {
 }
 
 .button span:after {
-  content: '»';
+  content: 'Â»';
   position: absolute;
   opacity: 0;
   top: 0;
