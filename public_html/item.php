@@ -12,42 +12,7 @@
 
 <body>
 
-<nav>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-
-      <li>
-        <a href="about.html">About Us</a>
-      </li>
-      
-      <li>
-        <a href="info.html">Information</a>
-      </li>
-
-      <li>
-        <a href="location.html">Location and Business Hours</a>
-      </li>
-
-      <li>
-        <a href="item.html">Items For Sale</a>
-      </li>
-     
-      <li>
-        <a href="news.html">The BBQ Tribune</a>
-      </li>
-     
-      <li>
-        <a href="signup.html">Sign Up Page</a>
-      </li>
-     
-      <li>
-        <a href="login.html">Login</a>
-      </li>
-      
-    </ul>
-</nav>
+<?php include '../resources/navigation.php'; ?>
 
 <h1>Items for Sale </h1><br><br>
 
@@ -90,9 +55,7 @@
 
 </table>
 
-<footer>
-2016 SwensonBBQ, All Rights Reserved.
-</footer>
+<?php include '../resources/footer.php'; ?>
 
 </body>
 
